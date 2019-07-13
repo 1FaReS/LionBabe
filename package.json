@@ -1,0 +1,40 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "spam.js",
+  "scripts": {
+    "start": "node spam.js"
+  },
+  "dependencies": {
+    "canvas": "^2.5.0",
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "hastebin": "0.0.3",
+    "hastebin-gen": "^2.0.5",
+    "http": "0.0.0",
+    "jimp": "^0.6.4",
+    "moment": "^2.24.0",
+    "ms": "^2.1.2",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "spam": "^0.2.9",
+    "sqlite": "^3.0.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
